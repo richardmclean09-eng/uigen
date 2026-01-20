@@ -58,6 +58,10 @@ When `ANTHROPIC_API_KEY` is not set, `src/lib/provider.ts` returns a mock provid
 - `src/components/preview/PreviewFrame.tsx` - Live preview rendering
 - `prisma/schema.prisma` - Database schema (User, Project models)
 
+## Code Style
+
+- Use comments sparingly. Only comment complex code.
+
 ## Environment Variables
 
 - `ANTHROPIC_API_KEY` - Optional; enables real AI generation (uses mock otherwise)
